@@ -16,10 +16,10 @@
 ```gitbash
 go build hello.go
 
-> ./hello.exe
-
-Hello, world!
+./hello.exe
 ```
+This creates `hello.exe`.
+
 
 To change the output name, use the -o flag:
 ```gitbash
