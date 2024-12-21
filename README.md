@@ -54,7 +54,7 @@ $ bash: hey: command not found
 $ export GOPATH=$HOME/go
 $ export PATH=$PATH:$GOPATH/bin
 
-$ $go install github.com/rakyll/hey@latest
+$ go install github.com/rakyll/hey@latest
 ```
 
 ### **1. Verify Environment Variables**
