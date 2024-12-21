@@ -11,10 +11,18 @@
 
 ### go build
 - It compiles Go code into a binary executable, usually for later use.
-- By default, it creates an executable called hello.exe in the current directory.
+- By default, it creates an executable called hello.exe in the current directory (if the file was named hello.go).
+- Creates an executable called "hello.exe" in the current directory.
+```gitbash
+go build hello.go
+
+> ./hello.exe
+
+Hello, world!
+```
 
 To change the output name, use the -o flag:
-```bash
+```gitbash
 go build -o hello_world hello.go
 ```
 This creates `hello_world.exe`.
