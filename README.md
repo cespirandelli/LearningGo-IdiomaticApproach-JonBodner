@@ -4,7 +4,9 @@
 
 ## by Jon Bodner
 
-[Learning Go · GitHub](https://github.com/learning-go-book)
+Supplemental material (code examples, exercises, etc.) is available for download at [Learning Go · GitHub](https://github.com/learning-go-book)
+
+
 
 
 
@@ -24,26 +26,22 @@
 
 - Creates an executable called "hello.exe" in the current directory.
   
-  ```gitbash
+  ```
   go build hello.go
   ```
 
-./hello.exe
-
-```
-This creates `hello.exe`.
+- This creates `hello.exe`.
 
 
 To change the output name, use the -o flag:
-```gitbash
+
+```
 go build -o hello_world hello.go
 ```
 
-This creates `hello_world.exe`.
+- This creates `hello_world.exe`.
 
 In summary, `go build` generates a distributable binary, which is often what you want for sharing with others.
-
-
 
 
 
@@ -58,8 +56,6 @@ $ export PATH=$PATH:$GOPATH/bin
 
 $ $go install github.com/rakyll/hey@latest
 ```
-
-
 
 ### **1. Verify Environment Variables**
 
